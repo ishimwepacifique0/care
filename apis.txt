@@ -1,0 +1,7 @@
+https://opentdb.com/api.php?amount=10&difficulty=easy
+
+token: gNeIFvqZdnKCdrPatuaSg7UBT6EB8O9719mEptry
+
+https://quotes.rest/qod?language=en
+
+https://mind-wave.onrender.com
