@@ -47,8 +47,8 @@ export default function Footer() {
           <div className="flex flex-col gap-2">
             <p className="font-bold text-2xl mb-4">Contacts</p>
             <p>Location: Kigali, Rwanda</p>
-            <p>Email: mind.wave@gmail.com</p>
-            <p>Phone: +250785478021</p>
+            <p>Email: mbanzabigwiesther@gmail.com</p>
+            <p>Phone: +250788695489</p>
             <div className="flex justify-start gap-3">
               <img className="w-6" src="/twitter.png" alt="twitter" />
               <img className="w-6" src="/facebook.png" alt="twitter" />

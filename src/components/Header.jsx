@@ -14,16 +14,16 @@ export default function Header() {
       </Link>
       <section className="flex justify-between items-center gap-20">
         <div className="flex justify-between items-center gap-6 md:hidden">
-          <a className="hover:underline" href="#about">
+          <a className="hover:text-blue-200" href="#about">
             About
           </a>
           <a className="hover:text-blue-200" href="#how">
             How It Works
           </a>
-          <a className="hover:underline" href="#mental">
+          <a className="hover:text-blue-200" href="#mental">
             Mental Health
           </a>
-          <a className="hover:underline" href="#testimonials">
+          <a className="hover:text-blue-200" href="#testimonials">
             Testimonials
           </a>
         </div>

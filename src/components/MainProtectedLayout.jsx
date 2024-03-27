@@ -38,11 +38,11 @@ export default function MainProtectedLayout() {
   }
 
   return (
-    <article className="relative flex justify-end text-light-200">
-      <section className="w-1/5 h-screen fixed left-0 top-0 px-6 py-6 flex flex-col justify-between border-r-2 border-light-200 md:hidden">
+    <article className="relative flex  justify-end text-blue-950">
+      <section className="w-1/5 h-screen fixed left-0 top-0 px-6 py-6 flex bg-blue-950 flex-col text-[#a2e8e9] justify-between border-r-2 border-light-200 md:hidden">
         <section className="flex justify-start items-center gap-4 font-serif font-bold text-xl">
-          <LogoIcon classes="text-dark-100 w-10 h-10" />
-          <p className="text-2xl">Mind Wave</p>
+          <img className="text-dark-100 w-10 h-10" src="/pngtree-insurance-logo-vector-image_80257-removebg-preview.png" />
+          <p className="text-2xl">Carehealth</p>
         </section>
         <section className="flex flex-col gap-3">
           <NavLink
@@ -103,7 +103,7 @@ export default function MainProtectedLayout() {
         <section className="items-center justify-between px-12 md:px-4 hidden md:flex my-4">
           <section className="flex justify-start items-center gap-4 font-serif font-bold text-xl">
             <LogoIcon classes="text-dark-100 w-10 h-10" />
-            <p className="text-2xl">Mind Wave</p>
+            <p className="text-2xl">Carehealth</p>
           </section>
           <button onClick={openMenu}>
             <img
@@ -123,7 +123,7 @@ export default function MainProtectedLayout() {
           <section className="flex justify-between">
             <section className="flex justify-start items-center gap-4 font-serif font-bold text-xl">
               <LogoIcon classes="text-dark-100 w-10 h-10 sm:w-9 sm:h-9" />
-              <p className="text-2xl sm:text-xl">Mind Wave</p>
+              <p className="text-2xl sm:text-xl">Carehealth</p>
             </section>
             <button>
               <img className="w-8 h-8" src="/close.png" alt="" />
@@ -157,7 +157,7 @@ export default function MainProtectedLayout() {
               className="flex items-center gap-6 py-2 hover:bg-dark-100 hover:text-dark-200"
             >
               <img
-                className="w-8 object-contain"
+                className="w-8 object-contain bg-blue-950"
                 src="/motivation.png"
                 alt="Motivationo icon"
               />
