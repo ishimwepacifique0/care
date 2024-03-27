@@ -4,18 +4,18 @@ import Faq from "./Faq";
 export default function Inspiring() {
   const [test, settest] = useState(0);
   const testimonials = [
-    "MindWave has been my anchor through the storm of mental health challenges. The community's warmth and the insightful resources gave me the courage to confront my struggles head-on. Connecting with others who shared their journeys inspired me to seek professional help. Today, I stand not just as a survivor but as someone who thrives. MindWave, to me, is more than a website; it's a lifeline that leads to a brighter future.",
-    "MindWave has truly been a beacon of light during my darkest moments. The genuine support from the community and the interactive discussions provided a safe space for me to express my feelings. The daily motivation quotes became a source of strength, helping me navigate each day with a positive mindset. MindWave is not just a website; it's a catalyst for change, and I am grateful for the empowering journey it has guided me through.",
-    "MindWave came into my life like a breath of fresh air. The educational resources on the homepage offered valuable insights that enabled me to understand and manage my mental health better. The connection with fellow users in the community was uplifting, and the shared experiences made me feel less alone. MindWave is a powerful tool for empowerment, and I'm proud to be part of a community that advocates for mental well-being. It's more than a website; it's a testament to the strength that lies within each of us.",
+    "Carehealth platform has been my anchor through the storm of mental health challenges. The community's warmth and the insightful resources gave me the courage to confront my struggles head-on. Connecting with others who shared their journeys inspired me to seek professional help. Today, I stand not just as a survivor but as someone who thrives. Carehealth platform, to me, is more than a website; it's a lifeline that leads to a brighter future.",
+    "Carehealth platform has truly been a beacon of light during my darkest moments. The genuine support from the community and the interactive discussions provided a safe space for me to express my feelings. The daily motivation quotes became a source of strength, helping me navigate each day with a positive mindset. Carehealth platform is not just a website; it's a catalyst for change, and I am grateful for the empowering journey it has guided me through.",
+    "Carehealth platform came into my life like a breath of fresh air. The educational resources on the homepage offered valuable insights that enabled me to understand and manage my mental health better. The connection with fellow users in the community was uplifting, and the shared experiences made me feel less alone. Carehealth platform is a powerful tool for empowerment, and I'm proud to be part of a community that advocates for mental well-being. It's more than a website; it's a testament to the strength that lies within each of us.",
   ];
 
   function handleTest(num) {
     settest(num);
   }
   return (
-    <article className="mt-28" id="testimonials">
+    <article className="mt-0" id="testimonials">
       <section className="px-[5%] text-dark-200 bg-[url('/faq.jpg')] bg-cover bg-center py-12 relative ">
-        <section className="flex justify-between gap-6 sm:flex-col">
+        <section className="flex justify-between gap-6 sm:flex-col ">
           <p className="font-bold text-4xl md:text-3xl w-fit whitespace-nowrap z-10">
             Inspiring Stories
           </p>

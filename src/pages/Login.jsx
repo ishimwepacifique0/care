@@ -55,10 +55,10 @@ export default function Login() {
 
   return (
     <article className="flex max-h-[85vh] text-dark-200 rounded-2xl overflow-hidden w-3/5 md:w-11/12 mx-auto mb-20 mt-4">
-      <section className="w-1/2 md:w-full bg-light-200 flex flex-col gap-8 py-4 justify-around items-center">
-        <div className="flex items-center gap-4">
-          <LogoIcon classes="w-16 md:w-12" />
-          <p className="font-serif font-bold text-3xl md:text-2xl">Mind Wave</p>
+      <section className="w-1/2 md:w-full bg-[#a2e8e9] flex flex-col gap-8 py-4 justify-around items-center">
+      <div className="flex items-center gap-4">
+          <img className="w-16 md:w-12" src="/pngtree-insurance-logo-vector-image_80257-removebg-preview.png" />
+          <p className="font-serif font-bold text-3xl md:text-2xl">Carehealth </p>
         </div>
         <p className="font-bold text-5xl md:text-4xl">Welcome Back</p>
         <form className="flex flex-col w-4/5 gap-6">
@@ -102,7 +102,7 @@ export default function Login() {
           </Link>
         </p>
       </section>
-      <section className="w-1/2 bg-dark-100 md:hidden">
+      <section className="w-1/2 bg-white md:hidden">
         <LoginImg classes="h-full w-full object-contain" />
       </section>
     </article>

@@ -9,30 +9,29 @@ export default function Header() {
         to="/"
         className="flex justify-start items-center gap-4 font-serif font-bold text-xl"
       >
-        <LogoIcon classes="text-dark-100 w-8 h-8" />
-        <p>Mind Wave</p>
+        <img className="text-green-200 w-12 h-12" src="/pngtree-insurance-logo-vector-image_80257-removebg-preview.png" />
+        <p>Carehealth</p>
       </Link>
       <section className="flex justify-between items-center gap-20">
         <div className="flex justify-between items-center gap-6 md:hidden">
           <a className="hover:underline" href="#about">
             About
           </a>
-          <a className="hover:underline" href="#how">
+          <a className="hover:text-blue-200" href="#how">
             How It Works
           </a>
           <a className="hover:underline" href="#mental">
             Mental Health
           </a>
-          <a className="hover:underline" href="#meet">
-            Team
-          </a>
           <a className="hover:underline" href="#testimonials">
             Testimonials
           </a>
         </div>
-        <Link
+        
+      </section>
+      <Link
           to={pathname === "/signup" ? "/login" : "/signup"}
-          className="bg-dark-100 text-dark-200 font-semibold px-6 py-2"
+          className="bg-[#a2e8e9] text-dark-200 font-medium px-6 py-2 rounded"
         >
           {pathname === "/login"
             ? "Sign Up"
@@ -40,7 +39,6 @@ export default function Header() {
             ? "Log In"
             : "Get Started"}
         </Link>
-      </section>
     </section>
   );
 }

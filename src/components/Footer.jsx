@@ -4,16 +4,16 @@ import LogoIcon from "../assets/LogoIcon";
 export default function Footer() {
   return (
     <article>
-      <section className="w-full bg-dark-100 text-dark-200 flex flex-col items-center text-center py-4 gap-3">
+      <section className="w-full bg-white text-blue-950 flex flex-col items-center text-center py-12 gap-3">
         <p className="font-serif text-sm font-semibold">We are here to help!</p>
         <p className="font-semibold text-3xl">Ready to give us a TRY?</p>
         <p className="w-1/2 text-lg">
-          Join MindWave today. Connect, share, and grow in our supportive mental
+          Join Carehealth platform today. Connect, share, and grow in our supportive mental
           health community. Your well-being matters – be part of the
           conversation and start your journey to a healthier mind.
         </p>
         <Link
-          className="px-10 py-2 bg-dark-200 text-light-200 rounded-xl font-semibold"
+          className="px-10 py-2 bg-blue-950 text-light-200 rounded"
           to="/signup"
         >
           Get Started
@@ -26,11 +26,11 @@ export default function Footer() {
               to="/"
               className="flex justify-start items-center gap-4 font-serif font-bold text-xl"
             >
-              <LogoIcon classes="text-dark-100 w-8 h-8" />
-              <p>Mind Wave</p>
+              <img className="text-dark-100 w-12 h-12" src="pngtree-insurance-logo-vector-image_80257-removebg-preview.png" />
+              <p>Carehealth </p>
             </Link>
             <p>
-              Welcome to MindWave – where conversations on mental health thrive.
+              Welcome to Carehealth platform – where conversations on mental health thrive.
               Explore resources, connect with a supportive community, and begin
               your journey to a healthier mind. Join us in fostering
               understanding, empathy, and growth. Your well-being starts here
@@ -57,9 +57,6 @@ export default function Footer() {
             </div>
           </div>
         </section>
-        <p className="text-center pt-4">
-          Copyright 2023 Mind Wave @All right reserved
-        </p>
       </section>
     </article>
   );

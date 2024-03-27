@@ -4,7 +4,7 @@ import Footer from "./Footer";
 
 export default function MainLayout() {
   return (
-    <section className="bg-dark-200 text-light-200">
+    <section className="bg-blue-950 text-white">
       <Header />
       <Outlet />
       <Footer />
